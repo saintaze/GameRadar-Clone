@@ -423,6 +423,7 @@ main .trending-nav li:hover {
 .gallery-news-card {
   position: relative;
   padding: 0 .7rem;
+  margin-bottom: 1.5rem;
 }
 
 
