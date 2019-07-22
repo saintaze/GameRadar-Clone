@@ -260,7 +260,7 @@ main {
 }
 
 main .trending-nav {
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 main .trending-nav ul{
@@ -295,3 +295,48 @@ main .trending-nav li:hover {
  cursor: pointer;
 }
 
+.container .lead-card {
+  display: block;
+  position: relative;
+}
+
+.lead-card img {
+  width: 100%;
+  display: block;
+}
+
+
+.lead-card .content {
+  background-color: #222;
+  color: white;
+  padding: 1.2rem 2rem;
+
+}
+
+.lead-card .content h2 {
+  font-family: var(--font-OSC);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  margin-bottom: .8rem;
+  letter-spacing: .3px;
+}
+
+.lead-card .content h2:hover {
+  color: var(--color-orange);
+}
+
+
+.lead-card .banner {
+  position: absolute;
+  color: white;
+  background-color: var(--color-orange);
+  padding: .8rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.lead-card .strapline{
+  font-size: 1.6rem;
+}
