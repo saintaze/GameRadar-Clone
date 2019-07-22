@@ -57,6 +57,10 @@ header .top-nav-wrapper, header .bottom-nav-wrapper{
   margin: 0 auto;
 }
 
+body{
+  background-color: #ededed;
+}
+
 .top-nav-wrapper .logo-box{
   display: flex;
   align-items: center;
@@ -247,3 +251,47 @@ header .top-nav-wrapper, header .bottom-nav-wrapper{
 .bottom-nav-wrapper .fa-home{
   font-size: 1.8rem;
 }
+
+main {
+  width: 100%;
+  max-width: 97rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+main .trending-nav {
+  margin: 3rem;
+}
+
+main .trending-nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+main .trending-nav li {
+  padding: 1rem 1rem;
+}
+
+main .trending-nav .active{
+  color: var(--color-orange);
+}
+
+main .trending-nav li a {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: all .1s;
+}
+
+main .trending-nav li:hover a:not(.active){
+  text-decoration: underline;
+}
+
+main .trending-nav li:hover {
+ cursor: pointer;
+}
+
