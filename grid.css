@@ -270,7 +270,7 @@ body{
 
 /* md Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .container {
     max-width: 72rem;
   }
@@ -370,7 +370,7 @@ body{
 
 /* lg Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .container {
     max-width: 96rem;
   }

@@ -332,7 +332,7 @@ main .trending-nav li:hover {
 }
 
 
-.lead-card .banner {
+.lead-card .banner, .gallery-news-card .banner {
   position: absolute;
   color: white;
   background-color: var(--color-orange);
@@ -345,9 +345,9 @@ main .trending-nav li:hover {
   font-size: 1.6rem;
 }
 
-lead-card-col{
+.lead-card-col{
   padding-right: .3rem;
-  padding-left: .3rem;
+  padding-left: 0;
 }
 
 .latest-news-links .latest-news-banner{
@@ -414,4 +414,50 @@ lead-card-col{
 
 .latest-news-links ul a:hover {
   color: var(--color-orange);
+}
+
+.gallery-news-cards{
+  margin: 0 -2.2rem;
+}
+
+.gallery-news-card {
+  position: relative;
+  padding: 0 .7rem;
+}
+
+
+
+.gallery-news-card a, .gallery-news-card img{
+  display: block;
+}
+
+.gallery-news-card .img-box{
+  height: 16.7rem;
+}
+
+
+.gallery-news-card img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.gallery-news-card .heading {
+  background-color: #222;
+  padding: 1rem 2rem 1.4rem;
+  color: white;
+  font-family: var(--font-OSC);
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem; 
+  transition: all .1s;
+}
+
+.gallery-news-card .heading:hover{
+  color: var(--color-orange);
+}
+
+.gallery-news-card .gallery-news-card-wrapper{
+  background-color: #222;
+  height: 100%
 }
