@@ -495,3 +495,49 @@ main .trending-nav li:hover {
   margin-left: .5rem;
   line-height: 1px;
 }
+
+.tab-menu {
+  margin: 4rem -1.5rem;
+}
+
+.tab-menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #ddd;
+}
+
+.tab-menu li{
+ padding: 1.3rem 0;
+ flex: 1;
+ text-align: center;
+ line-height: 1;
+}
+
+.tab-menu a {
+  color: #868d94;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: all .1s;
+}
+
+.tab-menu a:hover {
+  color: #333;
+}
+
+.tab-menu li:not(.active){
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-menu li.active{
+  background-color: #ededed;
+  border-top: 3px solid var(--color-orange);
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;;
+}
+
+.tab-menu li.active a{
+  color: #333;
+}
