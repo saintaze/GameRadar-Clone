@@ -462,3 +462,36 @@ main .trending-nav li:hover {
   background-color: #222;
   height: 100%
 }
+
+.game-suggestions{
+  display: flex;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: .8rem 0;
+  align-items: center; 
+  text-transform: uppercase;
+  margin: 0 -1.5rem;
+  margin-top: 3rem;
+
+}
+
+.game-suggestions div:first-child{
+  font-weight: 700;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.game-suggestions .view-more{
+  margin-left: auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.game-suggestions .view-more .fa-caret-right{
+  font-size: 1.8rem;
+  margin-left: .5rem;
+  line-height: 1px;
+}
