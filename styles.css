@@ -31,7 +31,7 @@
 }
 
 html{
-  height: 1000vh;
+  height: 2000vh;
 }
 
 body{
@@ -51,7 +51,7 @@ header .top-nav{
 
 header .top-nav-wrapper{
   display: flex;
-  padding: 2.2rem 1rem 1.2rem;
+  padding: 2.2rem 1.6rem 1.3rem;
   color: white;
 }
 
@@ -707,7 +707,6 @@ main .trending-nav li:hover {
 .viewall .fa-caret-right{
   font-size: 1.8rem;
   margin-left: .5rem;
-  line-height: 1px;
 }
 
 .big-cards {
@@ -740,4 +739,13 @@ main .trending-nav li:hover {
 
 .tiny-cards-heading .tiny-card-heading{
   padding: 0 6.2px;
+}
+
+.small-news-card-text .text {
+  margin-top: .5rem;
+}
+
+.small-news-cards-text .small-news-card-text{
+  padding-right: 7.5px;
+  padding-left: 7.5px;
 }
