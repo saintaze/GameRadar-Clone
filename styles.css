@@ -332,7 +332,10 @@ main .trending-nav li:hover {
 }
 
 
-.lead-card .banner, .gallery-news-card .banner, .midsize-news-cards .banner {
+.lead-card .banner, 
+.gallery-news-card .banner, 
+.midsize-news-cards .banner, 
+.small-news-card .banner {
   position: absolute;
   color: white;
   background-color: var(--color-orange);
@@ -547,7 +550,8 @@ main .trending-nav li:hover {
 }
 
 .midsize-news-cards {
-  margin: 0 -2.2rem;
+  margin-left: -2.2rem;
+  margin-right: -2.2rem
 }
 
 .midsize-news-cards img {
@@ -565,19 +569,19 @@ main .trending-nav li:hover {
   line-height: 1.3;
 }
 
-.midsize-news-cards .byline{
+.midsize-news-cards .byline, .small-news-card .byline{
   display: flex;
   font-size: 1.3rem;
   color: #666;
   margin: .7rem 0;
 }
 
-.midsize-news-cards time{
+.midsize-news-cards time, .small-news-card time{
   display: inline-block;
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
-.midsize-news-cards .text {
+.midsize-news-cards .text, .small-news-card .text {
   color: #333;
   line-height: 1.5;
 }
@@ -612,4 +616,95 @@ main .trending-nav li:hover {
 
 .midsize-news-card-wrapper .title:hover{
   color: var(--color-orange);
+}
+
+.small-news-card-wrapper {
+  background-color: white;
+  height: 100%;
+}
+
+.small-news-cards{
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: 2rem;
+}
+
+.small-news-card-wrapper .banner-black{
+  background-color: transparent;
+}
+
+.small-news-card-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.small-news-card-wrapper .heading{
+   font-size: 1.8rem;
+   line-height: 1.4;
+   color: #333;
+   font-family: var(--font-OSC);
+   font-weight: 700;
+   transition: all .1s;
+}
+
+.small-news-card-wrapper .heading:hover {
+  color: var(--color-orange);
+}
+
+.small-news-card-wrapper .content-wrapper{
+  padding: 1.5rem;
+}
+
+.small-news-cards .small-news-card{
+    padding: 0 .5rem;
+}
+
+.small-news-card-wrapper .team-link{
+  color: var(--color-orange);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.small-news-card-wrapper .img-box{
+  height: 16.8rem;
+}
+
+.tiny-card .heading {
+  font-size: 1.6rem;
+  line-height: 
+}
+
+.tiny-card .byline {
+  display: block;
+}
+
+.tiny-card time {
+  margin-left: 0;
+}
+
+.tiny-card .img-box{
+  height: 12.6rem;
+}
+
+.viewall{
+  background-color: #333;
+  padding: 1.1rem 2rem;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 4.1rem -1.5rem;
+}
+
+.viewall .fa-caret-right{
+  font-size: 1.8rem;
+  margin-left: .5rem;
+  line-height: 1px;
 }
