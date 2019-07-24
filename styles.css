@@ -728,3 +728,16 @@ main .trending-nav li:hover {
   background-color: white;
   padding: 1.5rem;
 }
+
+.hot {
+  margin-top: 5.6rem;
+}
+
+.tiny-cards-heading .heading{
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+.tiny-cards-heading .tiny-card-heading{
+  padding: 0 6.2px;
+}
