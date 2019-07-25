@@ -19,7 +19,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 
 
 /* DEBUG END */
@@ -748,4 +748,91 @@ main .trending-nav li:hover {
 .small-news-cards-text .small-news-card-text{
   padding-right: 7.5px;
   padding-left: 7.5px;
+}
+
+.reviews .tab-menu-reviews li{
+  background-color: var(--color-orange);
+  border: none;
+  cursor: pointer;
+}
+
+.reviews .tab-menu-reviews a{
+  color: white;
+}
+
+.reviews .tab-menu-reviews {
+  margin: 0;
+}
+
+.reviews {
+  margin-top: -1.7rem
+}
+
+.reviews .tab-menu-reviews li.active {
+  background-color: white;
+  border-top: 4px solid var(--color-orange);
+  border-left: 4px solid var(--color-orange);
+}
+
+.reviews .tab-menu-reviews li.active a {
+  color: #ccc;
+}
+
+.reviews-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reviews-list a {
+  font-family: var(--font-OSC);
+}
+
+.reviews-list li:first-child .img-box {
+  position: relative;
+  display: block;
+}
+
+.reviews-list li:first-child .img-box img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.reviews-list .list-item-text{
+  display: flex;
+  padding: 1.4rem 1.3rem .8rem;
+  background-color: white;
+  border-bottom: 1px dotted #999;
+}
+
+.reviews-list .list-item-text a{
+  color: #333;
+}
+
+.reviews-list li:first-child .list-item-text{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(51,51,51, .9);
+  color: white;
+  padding: .9rem 1.6rem .2rem;
+} 
+
+.reviews-list h4 {
+  line-height: 1.7;
+  margin: 0;
+}
+
+.reviews-list .number {
+  color: #999;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-right: 1.1rem;
+  line-height: 1.2;
+}
+
+.reviews-row {
+  margin-left: -3rem;
+  margin-right: -3rem;
 }
