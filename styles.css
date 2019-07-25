@@ -989,6 +989,43 @@ footer li:not(:last-child){
     font-size: 1.6rem;
   }
 
+  .game-suggestions {
+    position: relative;
+  }
+
+  .game-suggestions .view-more{
+    position: absolute;
+    bottom: -3.7rem;
+    margin-left: 3.5rem;
+  }
+
+  .tab-menu{
+    margin-top: 5rem;
+  }
+
+  .midsize-news-card a {
+    flex-direction: column;
+  }
+
+  .midsize-news-card .img-box{
+    height: auto;
+  }
+
+  .midsize-news-card{
+    padding: 0;
+  }
+
+  .midsize-news-card .content-wrapper{
+    padding: 2.8rem;
+  }
+
+  .midsize-news-card img {
+    max-height: 38.4rem;
+  }
+
+  .midsize-news-card{
+    border: none;
+  }
   
 }
 
@@ -1009,5 +1046,9 @@ footer li:not(:last-child){
 
   .gallery-news-card .heading {
     flex: 6;
+  }
+
+  .game-suggestions .view-more{
+    margin-left: 1.8rem;
   }
 }
