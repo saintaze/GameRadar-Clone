@@ -30,10 +30,6 @@
   --font-OS: 'Open Sans';
 }
 
-html{
-  height: 2000vh;
-}
-
 body{
   font-family: var(--font-OS);
 }
@@ -835,4 +831,66 @@ main .trending-nav li:hover {
 .reviews-row {
   margin-left: -3rem;
   margin-right: -3rem;
+}
+
+footer{
+  background-color: #666;
+  color: white;
+  font-size: 1.4rem;
+  padding: 3rem 0;
+  margin-top: 6.2rem;
+  
+}
+
+footer .footer-content {
+  width: 100%;
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+footer a {
+  color: var(--color-orange);
+  transition: all .1s;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--color-orange);
+}
+
+footer ul{
+  list-style: none;
+  display: inline-block;
+  margin: 2.2rem 0;
+  padding: 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white
+
+}
+
+footer li{
+  display: inline-block;
+  margin: 2.3rem 0;
+  line-height: 12px;
+}
+
+footer li a {
+  color: white;
+  transition: all .1s;
+  font-weight: normal;
+}
+
+footer li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer li:not(:first-child){
+  padding-left: 1rem;
+}
+
+footer li:not(:last-child){
+  padding-right: 1rem;
+  border-right: 1px solid white;
 }
