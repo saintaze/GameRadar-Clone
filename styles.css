@@ -763,7 +763,7 @@ main .trending-nav li:hover {
 }
 
 .reviews {
-  margin-top: -1.7rem
+  margin-top: -1.6rem
 }
 
 .reviews .tab-menu-reviews li.active {
@@ -912,6 +912,15 @@ footer li:not(:last-child){
 
 @media screen and (max-width: 900px){
 
+  .reviews {
+    margin-top: 0;
+  }
+
+  .viewall{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .container {
     max-width: 100%;
   }
@@ -923,7 +932,6 @@ footer li:not(:last-child){
   }
 
   .midsize-news-card {
-    /* margin-bottom: 3rem; */
     border-bottom: 1px solid #ccc;
     padding: 2rem 0;
   }
@@ -1093,6 +1101,46 @@ footer li:not(:last-child){
   .midsize-news-card:last-child .img-box{
     display: none;
   } 
+
+  .big-card .content-wrapper{
+    padding: 2rem 2.5rem;
+    background-color: transparent;
+  }
+
+  .game-suggestions.hot{
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+  }
+
+  .row.big-cards{
+    margin-bottom: 0;
+  }
+
+  .tiny-card-heading:first-child .img-box{
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .tiny-card-heading:first-child a {
+    flex-direction: column;
+  }
+
+  .tiny-card-heading:first-child .img-box{
+    max-height: 38.4rem;
+    height: auto;
+  }
+
+  .big-cards-2{
+    margin-top: 5rem;
+  }
+
+  .viewall{
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+  }
+  .game-suggestions {
+    margin-top: 0;
+  }
 }
 
 
