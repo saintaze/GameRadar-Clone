@@ -846,8 +846,10 @@ footer{
 
 footer .footer-content {
   width: 100%;
-  max-width: 92rem;
+  max-width: 97rem;
   margin: 0 auto;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
 }
 
 footer a {
@@ -911,6 +913,10 @@ footer li:not(:last-child){
 
 
 @media screen and (max-width: 900px){
+
+  footer{
+    margin-top: 4.2rem;
+  }
 
   .reviews {
     margin-top: 0;
@@ -1140,6 +1146,18 @@ footer li:not(:last-child){
   }
   .game-suggestions {
     margin-top: 0;
+  }
+
+  footer li, footer ul{
+    display: block; 
+    text-align: center;
+  }
+
+  footer li {
+    border: none !important;
+    padding: 0 !important;
+    margin-top: 3.1rem;
+    margin-bottom: 3.1rem;
   }
 }
 
