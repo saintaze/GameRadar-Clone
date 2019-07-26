@@ -1,14 +1,14 @@
-# GameRadar-Clone
-GameRadar+ Clone Built with custom grid framework
+# GamesRadar-Clone
+GamesRadar+ Clone built with custom grid framework and is fully responsive
 
 ##### Built With
 + HTML5
-+ CSS3
++ CSS3 
 
-# Cloned Page URL
-#### Clone URL: [Live preview](https://html-signup-form.imhta.now.sh)
+# Live Version
+#### Clone URL: [Live Preview](https://html-signup-form.imhta.now.sh)
 #### Original URL:  [GamesRadar+](https://www.gamesradar.com/uk/)
 
-# Authors
-+ Saintaze [https://github.com/saintaze/](https://github.com/saintaze/)
+# Author
+Saintaze [https://github.com/saintaze/](https://github.com/saintaze/)
 
