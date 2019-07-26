@@ -934,7 +934,7 @@ footer li:not(:last-child){
   .latest-news-links{
     padding-left: 0;
     order: -1;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.1rem;
   }
 
   .midsize-news-card {
@@ -1024,6 +1024,18 @@ footer li:not(:last-child){
     font-size: 1.6rem;
   }
 
+}
+
+@media screen and (max-width: 830px){
+  .bottom-nav .movies-link{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .bottom-nav .switch-link{
+    display: none;
+  }
 }
 
 
@@ -1158,6 +1170,33 @@ footer li:not(:last-child){
     padding: 0 !important;
     margin-top: 3.1rem;
     margin-bottom: 3.1rem;
+  }
+
+  .latest-news-links .latest-news-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .lead-cards{
+    position: relative;
+  }
+
+   .latest-news-links ul{
+    margin-top: 6.8rem;
+  }
+
+  .bottom-nav{
+    display: none;
+  }
+
+  footer ul li:first-child{
+    margin-top: 2.4rem;
+  }
+
+  footer ul li:last-child{
+    margin-bottom: 2.6rem;
   }
 }
 
