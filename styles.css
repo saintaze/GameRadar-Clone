@@ -137,6 +137,35 @@ body{
   bottom: 2px;
 }
 
+.top-nav .burger-menu{
+  width: 1.8rem;
+  height: 2px;
+  background-color: white;
+  position: relative;
+  margin-right: 2rem;
+  margin-left: .4rem;
+  cursor: pointer;
+  display: none;
+}
+
+.top-nav .burger-menu::after, .top-nav .burger-menu::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  position: absolute;
+}
+
+.top-nav .burger-menu::after{
+  bottom: -5px;
+}
+
+.top-nav .burger-menu::before{
+  top: -5px;
+}
+
+
 .social-icon-t, .social-icon-y, .social-icon-f{
   width: 2.4rem;
   height: 2.4rem;
@@ -904,15 +933,34 @@ footer li:not(:last-child){
 
 @media screen and (max-width: 1000px){
 
-  /* main{
-    padding-left: 1.7rem;
-    padding-right: 1.7rem;
-  } */
+  .top-nav .social-edition {
+    margin-right: 3.3rem;
+  }
+  .top-nav .tag-line, .top-nav .edition-text{
+    white-space: nowrap;
+  }
+
+  .top-nav .brand{
+    margin-right: auto;
+  }
 
 }
 
 
 @media screen and (max-width: 900px){
+
+  .top-nav .tag-line{
+    display: none;
+  }
+
+  .top-nav .social-edition{
+    margin-left: auto;
+    margin-right: 4.5rem
+  }
+
+  .top-nav .top-nav-wrapper{
+    margin-right: .9rem;
+  }
 
   footer{
     margin-top: 4.2rem;
@@ -992,6 +1040,11 @@ footer li:not(:last-child){
     padding: 2rem 0;
   }
 
+  .small-news-cards .small-news-card:last-child{
+    border-bottom: none;
+    /* padding-bottom: 0; */
+  }
+
   .small-news-card-wrapper{
     background-color: transparent;
   }
@@ -1026,6 +1079,12 @@ footer li:not(:last-child){
 
 }
 
+@media screen and (max-width: 850px){
+  .top-nav .social-edition{
+    margin-right: 2.6rem
+  }
+}
+
 @media screen and (max-width: 830px){
   .bottom-nav .movies-link{
     display: none;
@@ -1036,10 +1095,36 @@ footer li:not(:last-child){
   .bottom-nav .switch-link{
     display: none;
   }
+
+  .top-nav .edition-text {
+    display: none;
+  }
 }
 
 
 @media screen and (max-width: 700px){
+
+  .container{
+    overflow: hidden;
+  }
+
+  .top-nav .burger-menu{
+    display: block;
+  }
+
+  .top-nav .social-icons, .top-nav .bar-separator, .top-nav input{
+    display: none;
+  }
+
+  .top-nav .fa-search{
+    font-size: 2rem;
+    bottom: 0.1rem;
+  }
+
+  .top-nav .brand {
+    margin-right: auto;
+  }
+
   main {
     padding: 0;
   }
