@@ -11,7 +11,7 @@ Its a GamesRadar+ clone.
 
 # Live Version
 
-URL: [GamesRadar+](https://saintaze.github.io/GameRadar-Clone/)
+URL: [GamesRadar+](https://saintaze.github.io/GamesRadar-Clone/)
 
 # Author
 Saintaze [@saintaze](https://github.com/saintaze/)
