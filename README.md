@@ -1,8 +1,8 @@
 # GamesRadar-Clone
-Its a GameRadar+ clone.
+Its a GamesRadar+ clone.
 
 ### Features
-+ Exact Clone of GameRadar+
++ Exact Clone of GamesRadar+
 + Fully Responsive like the original
 
 ##### Built With
